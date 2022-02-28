@@ -1,0 +1,29 @@
+version: "3.1"
+services:
+    db:
+        image: mysql:5.7
+        container_name: team1-mysql
+        restart: always
+        ports:
+            - "3306:3306"
+        environment:
+            - MYSQL_ROOT_PASSWORD=123456
+            - MYSQL_DATABASE=lara_sql
+            - MYSQL_USER=lara_user
+            - MYSQL_PASSWORD=123456
+    adminer:
+        image: adminer
+        container_name: team1-adminer
+        restart: always
+        ports:
+            - "2221:8080"
+    app:
+        build:
+            context: .
+            dockerfile: .docker/Dockerfile
+        image: "laravelapp"
+        container_name: team1-app
+        ports:
+            - "2229:80"
+        volumes:
+            - ./:/var/www/html/

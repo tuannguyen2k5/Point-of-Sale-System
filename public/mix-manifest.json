@@ -1,0 +1,15 @@
+{
+    "/assets/js/app.js": "/assets/js/app.js",
+    "/assets/js/demo.js": "/assets/js/demo.js",
+    "/assets/css/app.css": "/assets/css/app.css",
+    "/assets/js/adminlte.min.js": "/assets/js/adminlte.min.js",
+    "/assets/js/pages/dashboard.js": "/assets/js/pages/dashboard.js",
+    "/assets/js/pages/dashboard2.js": "/assets/js/pages/dashboard2.js",
+    "/assets/js/pages/dashboard3.js": "/assets/js/pages/dashboard3.js",
+    "/assets/css/adminlte.min.css": "/assets/css/adminlte.min.css",
+    "/assets/css/alt/adminlte.components.min.css": "/assets/css/alt/adminlte.components.min.css",
+    "/assets/css/alt/adminlte.core.min.css": "/assets/css/alt/adminlte.core.min.css",
+    "/assets/css/alt/adminlte.extra-components.min.css": "/assets/css/alt/adminlte.extra-components.min.css",
+    "/assets/css/alt/adminlte.pages.min.css": "/assets/css/alt/adminlte.pages.min.css",
+    "/assets/css/alt/adminlte.plugins.min.css": "/assets/css/alt/adminlte.plugins.min.css"
+}
